@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE9423C024EC33C90080B28E /* Katana_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423BF24EC33C90080B28E /* Katana_SwiftUIApp.swift */; };
+		DE9423C224EC33C90080B28E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423C124EC33C90080B28E /* ContentView.swift */; };
+		DE9423C424EC33CB0080B28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9423C324EC33CB0080B28E /* Assets.xcassets */; };
+		DE9423C724EC33CB0080B28E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9423C624EC33CB0080B28E /* Preview Assets.xcassets */; };
+		DE9423D224EC33CC0080B28E /* Katana_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423D124EC33CC0080B28E /* Katana_SwiftUITests.swift */; };
+		DE9423DD24EC33CC0080B28E /* Katana_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423DC24EC33CC0080B28E /* Katana_SwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE9423CE24EC33CC0080B28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9423B424EC33C90080B28E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9423BB24EC33C90080B28E;
+			remoteInfo = "Katana+SwiftUI";
+		};
+		DE9423D924EC33CC0080B28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9423B424EC33C90080B28E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9423BB24EC33C90080B28E;
+			remoteInfo = "Katana+SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE9423BC24EC33C90080B28E /* Katana+SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Katana+SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9423BF24EC33C90080B28E /* Katana_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Katana_SwiftUIApp.swift; sourceTree = "<group>"; };
+		DE9423C124EC33C90080B28E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE9423C324EC33CB0080B28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE9423C624EC33CB0080B28E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE9423C824EC33CB0080B28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9423CD24EC33CC0080B28E /* Katana+SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Katana+SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9423D124EC33CC0080B28E /* Katana_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Katana_SwiftUITests.swift; sourceTree = "<group>"; };
+		DE9423D324EC33CC0080B28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9423D824EC33CC0080B28E /* Katana+SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Katana+SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9423DC24EC33CC0080B28E /* Katana_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Katana_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		DE9423DE24EC33CC0080B28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE9423B924EC33C90080B28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9423CA24EC33CC0080B28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9423D524EC33CC0080B28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE9423B324EC33C90080B28E = {
+			isa = PBXGroup;
+			children = (
+				DE9423BE24EC33C90080B28E /* Katana+SwiftUI */,
+				DE9423D024EC33CC0080B28E /* Katana+SwiftUITests */,
+				DE9423DB24EC33CC0080B28E /* Katana+SwiftUIUITests */,
+				DE9423BD24EC33C90080B28E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE9423BD24EC33C90080B28E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9423BC24EC33C90080B28E /* Katana+SwiftUI.app */,
+				DE9423CD24EC33CC0080B28E /* Katana+SwiftUITests.xctest */,
+				DE9423D824EC33CC0080B28E /* Katana+SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9423BE24EC33C90080B28E /* Katana+SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DE9423BF24EC33C90080B28E /* Katana_SwiftUIApp.swift */,
+				DE9423C124EC33C90080B28E /* ContentView.swift */,
+				DE9423C324EC33CB0080B28E /* Assets.xcassets */,
+				DE9423C824EC33CB0080B28E /* Info.plist */,
+				DE9423C524EC33CB0080B28E /* Preview Content */,
+			);
+			path = "Katana+SwiftUI";
+			sourceTree = "<group>";
+		};
+		DE9423C524EC33CB0080B28E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE9423C624EC33CB0080B28E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE9423D024EC33CC0080B28E /* Katana+SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE9423D124EC33CC0080B28E /* Katana_SwiftUITests.swift */,
+				DE9423D324EC33CC0080B28E /* Info.plist */,
+			);
+			path = "Katana+SwiftUITests";
+			sourceTree = "<group>";
+		};
+		DE9423DB24EC33CC0080B28E /* Katana+SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE9423DC24EC33CC0080B28E /* Katana_SwiftUIUITests.swift */,
+				DE9423DE24EC33CC0080B28E /* Info.plist */,
+			);
+			path = "Katana+SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE9423BB24EC33C90080B28E /* Katana+SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9423E124EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUI" */;
+			buildPhases = (
+				DE9423B824EC33C90080B28E /* Sources */,
+				DE9423B924EC33C90080B28E /* Frameworks */,
+				DE9423BA24EC33C90080B28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Katana+SwiftUI";
+			productName = "Katana+SwiftUI";
+			productReference = DE9423BC24EC33C90080B28E /* Katana+SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE9423CC24EC33CC0080B28E /* Katana+SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9423E424EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUITests" */;
+			buildPhases = (
+				DE9423C924EC33CC0080B28E /* Sources */,
+				DE9423CA24EC33CC0080B28E /* Frameworks */,
+				DE9423CB24EC33CC0080B28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9423CF24EC33CC0080B28E /* PBXTargetDependency */,
+			);
+			name = "Katana+SwiftUITests";
+			productName = "Katana+SwiftUITests";
+			productReference = DE9423CD24EC33CC0080B28E /* Katana+SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE9423D724EC33CC0080B28E /* Katana+SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9423E724EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUIUITests" */;
+			buildPhases = (
+				DE9423D424EC33CC0080B28E /* Sources */,
+				DE9423D524EC33CC0080B28E /* Frameworks */,
+				DE9423D624EC33CC0080B28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9423DA24EC33CC0080B28E /* PBXTargetDependency */,
+			);
+			name = "Katana+SwiftUIUITests";
+			productName = "Katana+SwiftUIUITests";
+			productReference = DE9423D824EC33CC0080B28E /* Katana+SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE9423B424EC33C90080B28E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DE9423BB24EC33C90080B28E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DE9423CC24EC33CC0080B28E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DE9423BB24EC33C90080B28E;
+					};
+					DE9423D724EC33CC0080B28E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DE9423BB24EC33C90080B28E;
+					};
+				};
+			};
+			buildConfigurationList = DE9423B724EC33C90080B28E /* Build configuration list for PBXProject "Katana+SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE9423B324EC33C90080B28E;
+			productRefGroup = DE9423BD24EC33C90080B28E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9423BB24EC33C90080B28E /* Katana+SwiftUI */,
+				DE9423CC24EC33CC0080B28E /* Katana+SwiftUITests */,
+				DE9423D724EC33CC0080B28E /* Katana+SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE9423BA24EC33C90080B28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9423C724EC33CB0080B28E /* Preview Assets.xcassets in Resources */,
+				DE9423C424EC33CB0080B28E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9423CB24EC33CC0080B28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9423D624EC33CC0080B28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE9423B824EC33C90080B28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9423C224EC33C90080B28E /* ContentView.swift in Sources */,
+				DE9423C024EC33C90080B28E /* Katana_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9423C924EC33CC0080B28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9423D224EC33CC0080B28E /* Katana_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9423D424EC33CC0080B28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9423DD24EC33CC0080B28E /* Katana_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE9423CF24EC33CC0080B28E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE9423BB24EC33C90080B28E /* Katana+SwiftUI */;
+			targetProxy = DE9423CE24EC33CC0080B28E /* PBXContainerItemProxy */;
+		};
+		DE9423DA24EC33CC0080B28E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE9423BB24EC33C90080B28E /* Katana+SwiftUI */;
+			targetProxy = DE9423D924EC33CC0080B28E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE9423DF24EC33CC0080B28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE9423E024EC33CC0080B28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE9423E224EC33CC0080B28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Katana+SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4F55VCB57F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Katana+SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE9423E324EC33CC0080B28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Katana+SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4F55VCB57F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Katana+SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE9423E524EC33CC0080B28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F55VCB57F;
+				INFOPLIST_FILE = "Katana+SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Katana+SwiftUI.app/Katana+SwiftUI";
+			};
+			name = Debug;
+		};
+		DE9423E624EC33CC0080B28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F55VCB57F;
+				INFOPLIST_FILE = "Katana+SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Katana+SwiftUI.app/Katana+SwiftUI";
+			};
+			name = Release;
+		};
+		DE9423E824EC33CC0080B28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F55VCB57F;
+				INFOPLIST_FILE = "Katana+SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Katana+SwiftUI";
+			};
+			name = Debug;
+		};
+		DE9423E924EC33CC0080B28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F55VCB57F;
+				INFOPLIST_FILE = "Katana+SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Katana+SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE9423B724EC33C90080B28E /* Build configuration list for PBXProject "Katana+SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9423DF24EC33CC0080B28E /* Debug */,
+				DE9423E024EC33CC0080B28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9423E124EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9423E224EC33CC0080B28E /* Debug */,
+				DE9423E324EC33CC0080B28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9423E424EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9423E524EC33CC0080B28E /* Debug */,
+				DE9423E624EC33CC0080B28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9423E724EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9423E824EC33CC0080B28E /* Debug */,
+				DE9423E924EC33CC0080B28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE9423B424EC33C90080B28E /* Project object */;
+}
