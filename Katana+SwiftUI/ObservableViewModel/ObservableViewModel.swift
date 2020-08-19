@@ -13,7 +13,7 @@ import Katana
 class ObservableViewModel: ObservableObject {
 	let store: AppStore
 	
-	let objectWillChange = ObservableObjectPublisher()
+	public let objectWillChange = ObservableObjectPublisher()
 
 	init(store: AppStore) {
 		self.store = store

@@ -12,12 +12,12 @@ class CounterViewModel: ObservableViewModel {
 	var counter = 0
 	var title = "Counter"
 	
-	var decrementIsDisabled = true
+	var decrementIsDisabled: Bool {
+		counter == 0
+	}
 	
 	override func updateView(state: AppState) {
 		self.counter = state.counter
-		
-		self.decrementIsDisabled = counter == 0
 	}
 	
 	func increment() {
