@@ -14,31 +14,12 @@
 		DE9423C224EC33C90080B28E /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423C124EC33C90080B28E /* CounterView.swift */; };
 		DE9423C424EC33CB0080B28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9423C324EC33CB0080B28E /* Assets.xcassets */; };
 		DE9423C724EC33CB0080B28E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9423C624EC33CB0080B28E /* Preview Assets.xcassets */; };
-		DE9423D224EC33CC0080B28E /* Katana_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423D124EC33CC0080B28E /* Katana_SwiftUITests.swift */; };
-		DE9423DD24EC33CC0080B28E /* Katana_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423DC24EC33CC0080B28E /* Katana_SwiftUIUITests.swift */; };
 		DE9423EC24EC34C30080B28E /* Katana in Frameworks */ = {isa = PBXBuildFile; productRef = DE9423EB24EC34C30080B28E /* Katana */; };
 		DE9423EF24EC36A70080B28E /* AppDispatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423EE24EC36A70080B28E /* AppDispatchable.swift */; };
 		DE9423F224EC374C0080B28E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423F124EC374C0080B28E /* AppState.swift */; };
 		DE9423F524EC38B20080B28E /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423F424EC38B20080B28E /* AppDependencies.swift */; };
 		DE9423F724EC3A7C0080B28E /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9423F624EC3A7C0080B28E /* AppStore.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DE9423CE24EC33CC0080B28E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE9423B424EC33C90080B28E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE9423BB24EC33C90080B28E;
-			remoteInfo = "Katana+SwiftUI";
-		};
-		DE9423D924EC33CC0080B28E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE9423B424EC33C90080B28E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE9423BB24EC33C90080B28E;
-			remoteInfo = "Katana+SwiftUI";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DE87DA4824EC69B400955E83 /* CounterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterLogic.swift; sourceTree = "<group>"; };
@@ -50,12 +31,6 @@
 		DE9423C324EC33CB0080B28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9423C624EC33CB0080B28E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE9423C824EC33CB0080B28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE9423CD24EC33CC0080B28E /* Katana+SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Katana+SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE9423D124EC33CC0080B28E /* Katana_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Katana_SwiftUITests.swift; sourceTree = "<group>"; };
-		DE9423D324EC33CC0080B28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE9423D824EC33CC0080B28E /* Katana+SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Katana+SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE9423DC24EC33CC0080B28E /* Katana_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Katana_SwiftUIUITests.swift; sourceTree = "<group>"; };
-		DE9423DE24EC33CC0080B28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE9423EE24EC36A70080B28E /* AppDispatchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDispatchable.swift; sourceTree = "<group>"; };
 		DE9423F124EC374C0080B28E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		DE9423F424EC38B20080B28E /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
@@ -68,20 +43,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9423EC24EC34C30080B28E /* Katana in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE9423CA24EC33CC0080B28E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE9423D524EC33CC0080B28E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				DE9423BE24EC33C90080B28E /* Katana+SwiftUI */,
-				DE9423D024EC33CC0080B28E /* Katana+SwiftUITests */,
-				DE9423DB24EC33CC0080B28E /* Katana+SwiftUIUITests */,
 				DE9423BD24EC33C90080B28E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -160,8 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				DE9423BC24EC33C90080B28E /* Katana+SwiftUI.app */,
-				DE9423CD24EC33CC0080B28E /* Katana+SwiftUITests.xctest */,
-				DE9423D824EC33CC0080B28E /* Katana+SwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,24 +146,6 @@
 				DE9423C624EC33CB0080B28E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DE9423D024EC33CC0080B28E /* Katana+SwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE9423D124EC33CC0080B28E /* Katana_SwiftUITests.swift */,
-				DE9423D324EC33CC0080B28E /* Info.plist */,
-			);
-			path = "Katana+SwiftUITests";
-			sourceTree = "<group>";
-		};
-		DE9423DB24EC33CC0080B28E /* Katana+SwiftUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE9423DC24EC33CC0080B28E /* Katana_SwiftUIUITests.swift */,
-				DE9423DE24EC33CC0080B28E /* Info.plist */,
-			);
-			path = "Katana+SwiftUIUITests";
 			sourceTree = "<group>";
 		};
 		DE9423ED24EC36910080B28E /* Dispatchable */ = {
@@ -264,42 +203,6 @@
 			productReference = DE9423BC24EC33C90080B28E /* Katana+SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DE9423CC24EC33CC0080B28E /* Katana+SwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE9423E424EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUITests" */;
-			buildPhases = (
-				DE9423C924EC33CC0080B28E /* Sources */,
-				DE9423CA24EC33CC0080B28E /* Frameworks */,
-				DE9423CB24EC33CC0080B28E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE9423CF24EC33CC0080B28E /* PBXTargetDependency */,
-			);
-			name = "Katana+SwiftUITests";
-			productName = "Katana+SwiftUITests";
-			productReference = DE9423CD24EC33CC0080B28E /* Katana+SwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DE9423D724EC33CC0080B28E /* Katana+SwiftUIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE9423E724EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUIUITests" */;
-			buildPhases = (
-				DE9423D424EC33CC0080B28E /* Sources */,
-				DE9423D524EC33CC0080B28E /* Frameworks */,
-				DE9423D624EC33CC0080B28E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE9423DA24EC33CC0080B28E /* PBXTargetDependency */,
-			);
-			name = "Katana+SwiftUIUITests";
-			productName = "Katana+SwiftUIUITests";
-			productReference = DE9423D824EC33CC0080B28E /* Katana+SwiftUIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -311,14 +214,6 @@
 				TargetAttributes = {
 					DE9423BB24EC33C90080B28E = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					DE9423CC24EC33CC0080B28E = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = DE9423BB24EC33C90080B28E;
-					};
-					DE9423D724EC33CC0080B28E = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = DE9423BB24EC33C90080B28E;
 					};
 				};
 			};
@@ -339,8 +234,6 @@
 			projectRoot = "";
 			targets = (
 				DE9423BB24EC33C90080B28E /* Katana+SwiftUI */,
-				DE9423CC24EC33CC0080B28E /* Katana+SwiftUITests */,
-				DE9423D724EC33CC0080B28E /* Katana+SwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,20 +245,6 @@
 			files = (
 				DE9423C724EC33CB0080B28E /* Preview Assets.xcassets in Resources */,
 				DE9423C424EC33CB0080B28E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE9423CB24EC33CC0080B28E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE9423D624EC33CC0080B28E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,36 +267,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE9423C924EC33CC0080B28E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE9423D224EC33CC0080B28E /* Katana_SwiftUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE9423D424EC33CC0080B28E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE9423DD24EC33CC0080B28E /* Katana_SwiftUIUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DE9423CF24EC33CC0080B28E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE9423BB24EC33C90080B28E /* Katana+SwiftUI */;
-			targetProxy = DE9423CE24EC33CC0080B28E /* PBXContainerItemProxy */;
-		};
-		DE9423DA24EC33CC0080B28E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE9423BB24EC33C90080B28E /* Katana+SwiftUI */;
-			targetProxy = DE9423D924EC33CC0080B28E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DE9423DF24EC33CC0080B28E /* Debug */ = {
@@ -580,90 +430,6 @@
 			};
 			name = Release;
 		};
-		DE9423E524EC33CC0080B28E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4F55VCB57F;
-				INFOPLIST_FILE = "Katana+SwiftUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Katana+SwiftUI.app/Katana+SwiftUI";
-			};
-			name = Debug;
-		};
-		DE9423E624EC33CC0080B28E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4F55VCB57F;
-				INFOPLIST_FILE = "Katana+SwiftUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Katana+SwiftUI.app/Katana+SwiftUI";
-			};
-			name = Release;
-		};
-		DE9423E824EC33CC0080B28E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4F55VCB57F;
-				INFOPLIST_FILE = "Katana+SwiftUIUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Katana+SwiftUI";
-			};
-			name = Debug;
-		};
-		DE9423E924EC33CC0080B28E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4F55VCB57F;
-				INFOPLIST_FILE = "Katana+SwiftUIUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "michelemola.Katana-SwiftUIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Katana+SwiftUI";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -681,24 +447,6 @@
 			buildConfigurations = (
 				DE9423E224EC33CC0080B28E /* Debug */,
 				DE9423E324EC33CC0080B28E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE9423E424EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE9423E524EC33CC0080B28E /* Debug */,
-				DE9423E624EC33CC0080B28E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE9423E724EC33CC0080B28E /* Build configuration list for PBXNativeTarget "Katana+SwiftUIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE9423E824EC33CC0080B28E /* Debug */,
-				DE9423E924EC33CC0080B28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
