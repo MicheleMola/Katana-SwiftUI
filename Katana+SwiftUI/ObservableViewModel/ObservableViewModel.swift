@@ -8,10 +8,12 @@
 import Combine
 import Katana
 
-open class ObservableViewModel: ObservableObject {
+/// This class keep updated the View exploiting the store listener.
+/// Inherits this class to create the ViewModels and override the updateView(state: AppState) to update the SwiftUI View.
+class ObservableViewModel: ObservableObject {
 	let store: AppStore
 	
-	public let objectWillChange = ObservableObjectPublisher()
+	let objectWillChange = ObservableObjectPublisher()
 
 	init(store: AppStore) {
 		self.store = store

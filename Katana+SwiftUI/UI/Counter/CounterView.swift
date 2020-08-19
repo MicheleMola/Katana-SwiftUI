@@ -8,13 +8,34 @@
 import SwiftUI
 import Katana
 
+class CounterViewModel: ObservableViewModel {
+	var counter = 0
+	var title = "Counter"
+	
+	var decrementIsDisabled = true
+	
+	override func updateView(state: AppState) {
+		self.counter = state.counter
+		
+		self.decrementIsDisabled = counter == 0
+	}
+	
+	func increment() {
+		store.dispatch(Logic.Counter.IncreaseCounter())
+	}
+	
+	func decrement() {
+		store.dispatch(Logic.Counter.DecreaseCounter())
+	}
+}
+
 struct CounterView: View {
 	@ObservedObject var viewModel: CounterViewModel
 		
     var body: some View {
 		NavigationView {
 			VStack {
-				Button("Increase") {
+				Button("Increment") {
 					viewModel.increment()
 				}
 				.padding()
@@ -24,24 +45,27 @@ struct CounterView: View {
 				.font(.body)
 				
 				Text("\(viewModel.counter)")
+					.font(.title)
 					.bold()
 					.padding()
 
-				Button("Decrease") {
+				Button("Decrement") {
 					viewModel.decrement()
 				}
+				.disabled(viewModel.decrementIsDisabled)
 				.padding()
 				.background(Color(.orange))
 				.foregroundColor(.black)
 				.cornerRadius(16)
 				.font(.body)
+				.opacity(viewModel.decrementIsDisabled ? 0.5 : 1)
 				
 				NavigationLink(
 					destination: CounterDetailView(viewModel: CounterDetailViewModel(store: viewModel.store))) {
 					Text("Show detail view")
 						.padding()
 				}
-				.navigationBarTitle("Counter")
+				.navigationBarTitle(viewModel.title)
 			}
 		}
 	}
