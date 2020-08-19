@@ -129,6 +129,23 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		DE87DA5724ED363200955E83 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DE9423BF24EC33C90080B28E /* Katana_SwiftUIApp.swift */,
+				DE9423C824EC33CB0080B28E /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DE87DA5824ED363B00955E83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE9423C324EC33CB0080B28E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DE9423B324EC33C90080B28E = {
 			isa = PBXGroup;
 			children = (
@@ -159,9 +176,8 @@
 				DE9423ED24EC36910080B28E /* Dispatchable */,
 				DE87DA4724EC69A000955E83 /* Logic */,
 				DE87DA5424ED345700955E83 /* UI */,
-				DE9423C324EC33CB0080B28E /* Assets.xcassets */,
-				DE9423BF24EC33C90080B28E /* Katana_SwiftUIApp.swift */,
-				DE9423C824EC33CB0080B28E /* Info.plist */,
+				DE87DA5824ED363B00955E83 /* Resources */,
+				DE87DA5724ED363200955E83 /* Application */,
 				DE9423C524EC33CB0080B28E /* Preview Content */,
 			);
 			path = "Katana+SwiftUI";
@@ -529,7 +545,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Katana+SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 4F55VCB57F;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Katana+SwiftUI/Info.plist";
+				INFOPLIST_FILE = "Katana+SwiftUI/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -551,7 +567,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Katana+SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 4F55VCB57F;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Katana+SwiftUI/Info.plist";
+				INFOPLIST_FILE = "Katana+SwiftUI/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
