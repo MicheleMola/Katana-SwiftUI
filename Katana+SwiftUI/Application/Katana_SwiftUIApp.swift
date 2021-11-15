@@ -10,11 +10,11 @@ import Katana
 
 @main
 struct Katana_SwiftUIApp: App {
-	var store: AppStore = AppStore(interceptors: [], stateInitializer: AppState.init)
-	
-	var body: some Scene {
-		WindowGroup {
-			CounterView(viewModel: CounterViewModel(store: store))
-		}
-	}
+  var store: AppStore = AppStore(interceptors: [], stateInitializer: AppState.init)
+  
+  var body: some Scene {
+    WindowGroup {
+      CounterView(viewModel: CounterViewModel(store: store))
+    }
+  }
 }

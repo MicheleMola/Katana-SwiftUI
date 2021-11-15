@@ -17,3 +17,4 @@ protocol AppSideEffect: SideEffect where StateType == AppState, Dependencies == 
 
 typealias AppSideEffectContext = SideEffectContext<AppState, AppDependencies>
 
+typealias AppObservableViewModel = ObservableViewModel<AppState>

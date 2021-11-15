@@ -9,19 +9,19 @@ import Foundation
 import Katana
 
 extension Logic {
-	enum Counter {}
+  enum Counter {}
 }
 
 extension Logic.Counter {
-	struct IncreaseCounter: AppStateUpdater {
-		func updateState(_ state: inout AppState) {
-			state.counter += 1
-		}
-	}
-	
-	struct DecreaseCounter: AppStateUpdater {
-		func updateState(_ state: inout AppState) {
-			state.counter -= 1
-		}
-	}
+  struct IncreaseCounter: AppStateUpdater {
+    func updateState(_ state: inout AppState) {
+      state.counter += 1
+    }
+  }
+  
+  struct DecreaseCounter: AppStateUpdater {
+    func updateState(_ state: inout AppState) {
+      state.counter -= 1
+    }
+  }
 }
