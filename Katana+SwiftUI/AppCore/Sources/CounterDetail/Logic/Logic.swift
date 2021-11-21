@@ -1,18 +1,21 @@
 //
-//  CounterLogic.swift
-//  Katana+SwiftUI
+//  File.swift
+//  
 //
-//  Created by Michele Mola on 18/08/20.
+//  Created by Michele Mola on 15/11/21.
 //
 
-import Foundation
-import Katana
+import AppCore
 
 extension Logic {
   enum Counter {}
 }
 
 extension Logic.Counter {
+  enum Detail {}
+}
+
+extension Logic.Counter.Detail {
   struct IncreaseCounter: AppStateUpdater {
     func updateState(_ state: inout AppState) {
       state.counter += 1

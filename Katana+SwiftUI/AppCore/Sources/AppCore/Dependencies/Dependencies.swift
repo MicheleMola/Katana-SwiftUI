@@ -1,11 +1,10 @@
 //
-//  AppDependencies.swift
-//  Katana+SwiftUI
+//  File.swift
+//  
 //
-//  Created by Michele Mola on 18/08/20.
+//  Created by Michele Mola on 15/11/21.
 //
 
-import Foundation
 import Katana
 
 /// The Container for the dependencies of the App
@@ -28,4 +27,3 @@ public class AppDependencies: SideEffectDependencyContainer {
     self.getState = getState
   }
 }
-

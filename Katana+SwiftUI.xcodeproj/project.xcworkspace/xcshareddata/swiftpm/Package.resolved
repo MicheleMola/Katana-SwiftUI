@@ -12,7 +12,7 @@
       },
       {
         "package": "Katana",
-        "repositoryURL": "https://github.com/BendingSpoons/katana-swift.git",
+        "repositoryURL": "https://github.com/BendingSpoons/katana-swift",
         "state": {
           "branch": null,
           "revision": "0dd0c2205175839c49a3eb6f6eb072dcd179fa64",

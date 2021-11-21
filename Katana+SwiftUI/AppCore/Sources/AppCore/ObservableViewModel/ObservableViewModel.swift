@@ -1,8 +1,8 @@
 //
-//  ObservableViewModel.swift
-//  Katana+SwiftUI
+//  File.swift
+//  
 //
-//  Created by Michele Mola on 19/08/20.
+//  Created by Michele Mola on 15/11/21.
 //
 
 import Combine
@@ -10,10 +10,10 @@ import Katana
 
 /// This class keep updated the View exploiting the store listener.
 /// Inherits this class to create the ViewModels and override the updateView(state: AppState) to update the SwiftUI View.
-class ObservableViewModel<S: Katana.State>: ObservableObject {
-  let store: PartialStore<S>
+open class ObservableViewModel<S: Katana.State>: ObservableObject {
+  public let store: PartialStore<S>
   
-  init(store: PartialStore<S>) {
+  public init(store: PartialStore<S>) {
     self.store = store
     
     self.update(oldState: nil, newState: store.state)
@@ -21,8 +21,8 @@ class ObservableViewModel<S: Katana.State>: ObservableObject {
   }
   
   private func setupListener() {
-    let _ = store.addListener { oldState, newState in
-      self.update(oldState: oldState, newState: newState)
+    let _ = store.addListener { [weak self] oldState, newState in
+      self?.update(oldState: oldState, newState: newState)
     }
   }
   
@@ -32,7 +32,7 @@ class ObservableViewModel<S: Katana.State>: ObservableObject {
     self.updateView(oldState: oldState, newState: newState)
   }
   
-  func updateView(oldState: S?, newState: S) {
+  open func updateView(oldState: S?, newState: S) {
     fatalError("Must be implemented.")
   }
 }

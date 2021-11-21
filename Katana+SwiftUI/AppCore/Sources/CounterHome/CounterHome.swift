@@ -1,14 +1,15 @@
 //
-//  ContentView.swift
-//  Katana+SwiftUI
+//  File.swift
+//  
 //
-//  Created by Michele Mola on 18/08/20.
+//  Created by Michele Mola on 15/11/21.
 //
 
+import AppCore
+import CounterDetail
 import SwiftUI
-import Katana
 
-class CounterViewModel: AppObservableViewModel {
+public class CounterHomeViewModel: AppObservableViewModel {
   var counter = 0
   var title = "Counter"
   
@@ -16,7 +17,7 @@ class CounterViewModel: AppObservableViewModel {
     counter == 0
   }
   
-  override func updateView(oldState: AppState?, newState: AppState) {
+  public override func updateView(oldState: AppState?, newState: AppState) {
     counter = newState.counter
   }
   
@@ -29,10 +30,14 @@ class CounterViewModel: AppObservableViewModel {
   }
 }
 
-struct CounterView: View {
-  @StateObject var viewModel: CounterViewModel
+public struct CounterHomeView: View {
+  @StateObject var viewModel: CounterHomeViewModel
   
-  var body: some View {
+  public init(viewModel: CounterHomeViewModel) {
+    self._viewModel = StateObject(wrappedValue: viewModel)
+  }
+  
+  public var body: some View {
     NavigationView {
       VStack {
         Button("Increment") {
@@ -61,11 +66,16 @@ struct CounterView: View {
         .opacity(viewModel.decrementIsDisabled ? 0.5 : 1)
         
         NavigationLink(
-          destination: CounterDetailView(viewModel: CounterDetailViewModel(store: viewModel.store))) {
-            Text("Show detail view")
-              .padding()
-          }
-          .navigationBarTitle(viewModel.title)
+          destination: CounterDetailView(
+            viewModel: CounterDetailViewModel(
+              store: viewModel.store
+            )
+          )
+        ) {
+          Text("Show detail view")
+            .padding()
+        }
+        .navigationBarTitle(viewModel.title)
       }
     }
   }
@@ -75,6 +85,6 @@ struct ContentView_Previews: PreviewProvider {
   static var store: AppStore = AppStore(interceptors: [], stateInitializer: AppState.init)
   
   static var previews: some View {
-    CounterView(viewModel: CounterViewModel(store: store))
+    CounterHomeView(viewModel: CounterHomeViewModel(store: store))
   }
 }

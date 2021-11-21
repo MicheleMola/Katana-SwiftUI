@@ -5,8 +5,9 @@
 //  Created by Michele Mola on 18/08/20.
 //
 
+import AppCore
+import CounterHome
 import SwiftUI
-import Katana
 
 @main
 struct Katana_SwiftUIApp: App {
@@ -14,7 +15,7 @@ struct Katana_SwiftUIApp: App {
   
   var body: some Scene {
     WindowGroup {
-      CounterView(viewModel: CounterViewModel(store: store))
+      CounterHomeView(viewModel: CounterHomeViewModel(store: store))
     }
   }
 }

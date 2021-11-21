@@ -1,20 +1,21 @@
 //
-//  CounterDetailView.swift
-//  Katana+SwiftUI
+//  File.swift
+//  
 //
-//  Created by Michele Mola on 19/08/20.
+//  Created by Michele Mola on 15/11/21.
 //
 
+import AppCore
 import SwiftUI
 
-class CounterDetailViewModel: AppObservableViewModel {  
+public class CounterDetailViewModel: AppObservableViewModel {
   var counter = 0
   
   @Published var showingSheet = false
   
   @Published var showingAlert = false
   
-  override func updateView(oldState: AppState?, newState: AppState) {
+  public override func updateView(oldState: AppState?, newState: AppState) {
     counter = newState.counter
   }
   
@@ -27,7 +28,7 @@ class CounterDetailViewModel: AppObservableViewModel {
   }
   
   func increment() {
-    store.dispatch(Logic.Counter.IncreaseCounter())
+    store.dispatch(Logic.Counter.Detail.IncreaseCounter())
   }
   
   func showSheet() {
@@ -39,10 +40,14 @@ class CounterDetailViewModel: AppObservableViewModel {
   }
 }
 
-struct CounterDetailView: View {
-  @StateObject var viewModel: CounterDetailViewModel
+public struct CounterDetailView: View {
+  @StateObject public var viewModel: CounterDetailViewModel
   
-  var body: some View {
+  public init(viewModel: CounterDetailViewModel) {
+    self._viewModel = StateObject(wrappedValue: viewModel)
+  }
+  
+  public var body: some View {
     VStack {
       Text("Value")
         .bold()
